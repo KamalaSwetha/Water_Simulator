@@ -1,0 +1,36 @@
+.slider-container {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+#students {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 50%;
+  }
+  
+  #students td{
+    border: 1px solid black;
+    padding: 8px;
+  }
+  #students tr{
+    height: 40px;
+  }
+  .obstruction {
+    margin: 1%;
+    border: 1px solid black;
+    padding: 8px;
+    height: 40px;
+    display: inline-block;
+    background-color: darkslategray
+  }
+  .gridObsContainer {
+      display: flex;
+      flex-wrap: nowrap;
+  }
+  .gridObsSec {
+      width: 100%;
+  }
